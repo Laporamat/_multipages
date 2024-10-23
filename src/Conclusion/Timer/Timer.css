@@ -1,0 +1,49 @@
+.timer-container {
+    border: 2px solid;
+    padding: 1rem; 
+    border-radius: 0.5rem;
+    margin: 0 0 1rem 0; 
+    width: 320px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.timer-title {
+    color: forestgreen;
+}
+
+.timer-display {
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0.25rem; 
+    width: 100px; 
+}
+
+.timer-button {
+    display: flex; 
+    justify-content: center; 
+    gap: 0.5rem; 
+}
+
+.btn {
+    padding: 0.5rem 1rem; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+}
+
+.btn-success {
+    background-color: #28a745; 
+}
+
+.btn:hover {
+    opacity: 0.8; 
+}

@@ -1,0 +1,103 @@
+/* General Control Box Styling */
+.control-box {
+    background-size: auto;
+    position: relative;
+    border-radius: 15px; /* Rounded corners */
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    display: flex; /* Center content */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.control-box:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.primary {
+    background-color: black;
+}
+
+.pause {
+    background-color: pink;
+}
+
+.reset {
+    background-color: gray;
+}
+
+.none {
+    background-color: purple;
+}
+
+.basketball {
+    background-color: indigo;
+}
+
+.football {
+    background-color: blue;
+}
+
+.volleyball {
+    background-color: green;
+}
+
+.human {
+    background-color: hsl(70, 100%, 45%);
+}
+
+.cartoon {
+    background-color: orange;
+}
+
+.logo {
+    background-color: red;
+}
+
+/* Container for the animation */
+#container {
+    border: 2px solid #bb1515;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 5px; /* Optional: Adjust as needed */
+}
+
+/* Field for the bouncing ball */
+#field {
+    height: 650px;
+    width: 1000px;
+    border: 2px solid #2bc233;
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px;
+    background-image: url("bos.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Control panel for boxes */
+#control {
+    display: flex; /* Use Flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping if the container is too narrow */
+    justify-content: center; /* Center the boxes horizontally */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ball styling */
+#Ball1 {
+    border: 2px solid white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}

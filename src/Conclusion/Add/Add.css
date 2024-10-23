@@ -1,0 +1,33 @@
+.add-container {
+    border: 2px solid; 
+    padding: 1rem; 
+    border-radius: 0.5rem; 
+    margin: 0 0 0.5rem 0; 
+    width: 700px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+.add-title {
+    color: blue;
+    margin-bottom: 1rem; 
+}
+
+.valis-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.value-badge {
+    margin: 0 10px;
+}
+
+.valis {
+    width: 300px; 
+    border: none; 
+    padding: 1rem; 
+}
+

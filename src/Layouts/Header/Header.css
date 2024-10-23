@@ -1,0 +1,18 @@
+.Header-container {
+    background-color: #00aaff; /* สีพื้นหลังของ container */
+    text-align: center;
+    color: white;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .Header-containers {
+    display: inline-block; /* ทำให้กรอบเป็นแบบ inline เพื่อให้พอดีกับข้อความ */
+    border: 2px solid pink; /* กรอบสีชมพูให้กับข้อความ */
+    background-color: #FF8096; /* พื้นหลังของกรอบข้อความเป็นสีชมพู */
+    border-radius: 5px; /* มุมโค้งสำหรับกรอบข้อความ */
+    padding: 10px; /* เพิ่มระยะห่างระหว่างข้อความกับกรอบ */
+    color: white; /* สีข้อความ */
+    margin-top: 12px; /* เลื่อนกรอบลงมาจากด้านบน 20px */
+  }
+  

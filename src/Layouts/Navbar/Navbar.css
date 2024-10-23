@@ -1,0 +1,35 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #00aaff;
+    height: 70px; 
+    align-items: center; 
+  }
+  
+  .navbar-container .btn {
+    height: auto; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  /* เปลี่ยนสีเมื่อ hover */
+  .navbar-container .btn:hover {
+    background-color: #007bff; /* สีพื้นหลังใหม่เมื่อ hover */
+    color: #fff; /* เปลี่ยนสีข้อความ */
+  }
+  
+  /* เปลี่ยนสีเมื่อปุ่มถูกกด */
+  .navbar-container .btn:active {
+    background-color: pink; /* สีเมื่อปุ่มถูกกด */
+    color: #fff; /* สีข้อความ */
+  }
+  
+  /* เปลี่ยนสีเมื่อปุ่มถูกเลือก  */
+  .navbar-container .btn.active {
+    background-color: #FF8096; /* สีเมื่อปุ่มถูกคลิกหรือเลือก */
+    color: #fff; 
+  }
+  

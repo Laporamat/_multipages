@@ -1,0 +1,26 @@
+.vila {
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem; /* มุมโค้ง */
+    margin-left: 10px;
+}
+
+.villla-collage {
+    border: 2px solid; /* กรอบ */
+    border-radius: 0.5rem; /* มุมโค้ง */
+    padding: 1rem; /* เพิ่ม padding เพื่อให้มีระยะห่าง */
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.temperature-badge {
+    display: flex;
+    justify-content: center; /* จัดกลาง */
+    gap: 1rem; /* ระยะห่างระหว่างบาดจ์ */
+}

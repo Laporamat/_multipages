@@ -1,0 +1,35 @@
+.counter-container {
+    border: 2px solid; 
+    padding: 1rem; 
+    border-radius: 0.5rem;
+    margin: 0 0 1rem 0;
+    margin-top: 25px;
+    width: 320px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.counter-button {
+    border: 2px solid; 
+    border-radius: 1rem;
+    width: 120px; 
+}
+
+.counter-title {
+    color: red;
+}
+
+.counter-doc {
+    background-color: blueviolet;
+    height: 70px; 
+}
+
+.counter-lac {
+    background-color: greenyellow;
+    height: 70px; 
+}
+
+.counter-value {
+    font-size: xx-large;
+    margin: 0 0.5rem 0 0.5rem;
+}
